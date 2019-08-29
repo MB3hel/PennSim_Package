@@ -1,2 +1,5 @@
 *.jar
 build/
+*.app/
+.DS_Store
+*.dmg
