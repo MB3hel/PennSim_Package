@@ -20,9 +20,5 @@ This project consists of files necessary to build PennSim installers and app pac
 - Download the latest [Java 8 JRE](https://adoptopenjdk.net/releases.html) pacakge (not installer) for macOS.
 - Unzip it and place the resulting folder in the build direcotry called jre
 - Run package.sh in a terminal opened in the apple_package dir.
-- Copy the template dmg (in apple_package) to the Desktop
-- Mount it
-- Place the generated app (from build/distributions) into the PennSim folder on the image
-- Unmount the image.
-- Open disk utility
-- Convert the image to a compressed format
+- Place the generated app (from build/distributions) into the PennSim folder in apple_pacakge/PennSim/PennSim
+- Use diskutility to make an image from the apple_package/PennSim folder
