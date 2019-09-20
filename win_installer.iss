@@ -29,6 +29,10 @@ Compression=lzma
 SolidCompression=yes
 WizardStyle=modern
 
+; Delete old stuff before install
+[InstallDelete]
+Type: files; Name: {%USERPROFILE}\{#MyAppName}\jre\*
+
 [Languages]
 Name: "english"; MessagesFile: "compiler:Default.isl"
 
