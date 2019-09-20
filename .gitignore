@@ -4,3 +4,5 @@ build/
 .DS_Store
 *.dmg
 !gradle/wrapper/gradle-wrapper.jar
+lc3os.obj
+lc3os.sym

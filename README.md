@@ -4,6 +4,7 @@ This project consists of files necessary to build PennSim installers and app pac
 
 ## Preparation for Packaging
 - Place the PennSim jar in the project root.
+- Place the lc3os.obj and lc3os.sym files in the project root
 - Install [InnoSetup]() and [java](adoptopenjdk.net)
 
 ## Building windows installers

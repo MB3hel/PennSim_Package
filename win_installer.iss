@@ -31,7 +31,7 @@ WizardStyle=modern
 
 ; Delete old stuff before install
 [InstallDelete]
-Type: files; Name: {%USERPROFILE}\{#MyAppName}\jre\*
+Type: files; Name: {app}\jre\*
 
 [Languages]
 Name: "english"; MessagesFile: "compiler:Default.isl"
@@ -42,6 +42,8 @@ Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{
 [Files]
 Source: "build\launch4j\PennSim.exe"; DestDir: "{app}"; Flags: ignoreversion
 Source: "build\launch4j\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "lc3os.obj"; DestDir: "{app}"; Flags: ignoreversion
+Source: "lc3os.sym"; DestDir: "{app}"; Flags: ignoreversion
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
 [Icons]
