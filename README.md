@@ -20,5 +20,7 @@ This project consists of files necessary to build PennSim installers and app pac
 - Download the latest [Java 11 JRE](https://adoptopenjdk.net/releases.html) pacakge (not installer) for macOS.
 - Unzip it and place the resulting folder in the build direcotry called jre
 - Run package.sh in a terminal opened in the apple_package dir.
-- Place the generated app (from build/distributions) into the PennSim folder in apple_pacakge/PennSim/
-- Zip the pennsim folder
+- To generate a pkg installer:
+    - Install [Whitebox pacakge app](http://s.sudre.free.fr/Software/Packages/about.html)
+    - Copy the generated app to apple_paakge/whitebox_pkg/
+    - Open the pkgproj file and build the package
